@@ -1,9 +1,3 @@
-tld
+tld: TLD Parsing based on the Public Suffix List
 =====
-
-An OTP library
-
-Build
------
-
-    $ rebar3 compile
+Note: This project has been abandoned after reading up on the events following Apple's iOS 14.5 privacy restrictions and Facebook's integration of the PSL in its ad system. These two events have caused a surge in merge requests to the PSL to include suffixes that, frankly, do not provide substantive value to the public and, instead, represent the hustle of self-interested advertisers to game corporate policies at the expense of undermining what was supposed to be community-ran project to curate trusted means of effective domain authorship.
